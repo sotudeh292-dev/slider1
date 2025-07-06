@@ -1,0 +1,61 @@
+.slider{
+    position: relative;
+    height: 600px;
+}
+img{
+    width: 100%;
+    position: absolute;
+}
+.air {
+    left: 0;
+    animation: air 2s 1s ease forwards ;
+}
+@keyframes air {
+    to{
+        left: -100%;
+    }
+}
+
+
+.morgh {
+    left: 0;
+    animation: morgh 2s 4s ease forwards ;
+}
+@keyframes morgh {
+    to{
+        left: -100%;
+    }
+}
+
+
+.chips {
+    left: 0;
+    animation: chips 2s 6s ease forwards ;
+}
+@keyframes chips {
+    to{
+        left: -100%;
+    }
+}
+
+
+.winter {
+    left: 0;
+    animation: winter 2s 15s ease forwards ;
+}
+@keyframes winter {
+    to{
+        left: -100%;
+    }
+}
+
+
+.mybaby {
+    left: 0;
+    animation: mybaby 2s 18s ease forwards ;
+}
+@keyframes mybaby {
+    to{
+        left: -100%;
+    }
+}
